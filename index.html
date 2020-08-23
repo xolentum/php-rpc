@@ -1,0 +1,93 @@
+<pre><h3>NERVA Public API</h3><ul>
+<a href="decodeoutputs.php">decodeoutputs.php</a>
+Decodes the amounts in the transaction hashes provided
+WARNING: This function requires you to send your private view key to the server
+    hash[]: list of hashes to get tx data for
+    address: the public address of the receiver
+    viewkey: the private view key of the receiver
+    example: gettransactions.php?hash[]=(hash1)&hash[]=(hash2)
+
+<a href="getbans.php">getbans.php</a>
+Gets a list of nodes blocked by this node
+
+<a href="getblockbyhash.php">getblockbyhash.php</a>
+Gets a block by it's hash
+    hash: Block hash to search for
+
+<a href="getblockbyheight.php">getblockbyheight.php</a>
+Gets a block by it's height
+    height: Block height to search for
+
+<a href="getblockcount.php">getblockcount.php</a>
+Gets the number of blocks in the longest chain
+
+<a href="getblockhash.php">getblockhash.php</a>
+Gets a block hash at the specified height
+    hash: Block height to search for
+
+<a href="getblockheaderbyhash.php">getblockheaderbyhash.php</a>
+Gets a block header by it's hash
+    hash: Block hash to search for
+
+<a href="getblockheaderbyheight.php">getblockheaderbyheight.php</a>
+Gets a block header by it's height
+    hash: Block height to search for
+
+<a href="getblockheadersrange.php">getblockheadersrange.php</a>
+Gets the block headers in the specified range
+    start_height: Height of the first block in the
+    end_height: Height of the last block in the range
+
+<a href="getblocktemplate.php">getblocktemplate.php</a>
+Gets a block template
+    address: Miner address to generate block template for
+    res: Reserve size
+
+<a href="getconnections.php">getconnections.php</a>
+Gets the number of blocks in the longest chain
+
+<a href="getgeneratedcoins.php">getgeneratedcoins.php</a>
+Gets the number of coins generated in the chain
+
+<a href="gethardforkinfo.php">gethardforkinfo.php</a>
+Gets hardfork information
+
+<a href="getinfo.php">getinfo.php</a>
+gets the current node information
+
+<a href="getlastblockheader.php">getlastblockheader.php</a>
+Gets the last block header
+
+<a href="getminingstatus.php">getminingstatus.php</a>
+Gets the mining status of the node
+
+<a href="gettransactionpool.php">gettransactionpool.php</a>
+Gets a list of transactions in the pool
+
+<a href="gettransactionpoolstats.php">gettransactionpoolstats.php</a>
+Gets transaction pool statistics
+
+<a href="gettransactions.php">gettransactions.php</a>
+Gets a list of transactions by their hashes
+    hash[]: list of hashes to get tx data for
+    example: gettransactions.php?hash[]=(hash1)&hash[]=(hash2)
+
+<a href="gettxpubkey.php">gettxpubkey.php</a>
+extracts the TX public key from the TX.Extra data
+    extra: TX.Extra field to extract the pubkey from
+
+<a href="setbans.php">setbans.php</a>
+Block a node by the IP address
+    ip: IP to ban
+    ban: To ban or not true/false
+    time: Number of seconds to ban for
+
+<a href="submitanalytics.php">submitanalytics.php</a>
+
+<a href="supply.php">supply.php</a>
+Formatted version of getgeneratedcoins for CMC
+
+<a href="tradeogre.php">tradeogre.php</a>
+Get market data from TradeOgre
+
+</ul></pre>
